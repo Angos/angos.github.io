@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="nav_path">{{ site.description }}</div>
+<ul class="article_list">
+	{% for post in site.posts %}
+	<li>
+		<h2 class="article_title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" rel="post">{{ post.title }}</a></h2>
+		<div class="article_ext"><span>{{ post.date | date_to_string }}</span></div>
+		<div class="article_summary">{% if post.description %}{{ post.description }}{% endif %}<div>
+	</li>
+	{% endfor %}
+</ul>
