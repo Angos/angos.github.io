@@ -9,7 +9,7 @@ tags:
 description: 一个对称加密的简单方法。
 ---
 
-{% highlight ruby %}
+{% highlight php %}
 
 <?php
 
