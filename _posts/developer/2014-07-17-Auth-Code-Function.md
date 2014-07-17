@@ -9,21 +9,7 @@ tags:
 description: 一个对称加密的简单方法。
 ---
 
-{% highlight php %}
-
-<?php
-
-/**
- * tt.php
- * 
- * Copyright (c) 2014 SINA Inc. All rights reserved.
- * 
- * @author     ligangzong <gangzong@staff.sina.com.cn>
- * @date       2014-5-23 20:58:51
- * @encoding   UTF-8
- * @version    $Id$
- */
-
+```php
 function authCode($string, $auth_key, $operation='ENCODE') {  
     $key = md5($auth_key);  
     $key_length = strlen($key);  
@@ -67,5 +53,4 @@ function authCode($string, $auth_key, $operation='ENCODE') {
         return str_replace('=', '',base64_encode(utf8_encode($result)));  
     }  
 }  
-
-{% endhighlight %}
+```
