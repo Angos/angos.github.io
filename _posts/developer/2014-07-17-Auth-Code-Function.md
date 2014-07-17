@@ -9,7 +9,8 @@ tags:
 description: 一个对称加密的简单方法。
 ---
 
-{% highlight php %}
+{% highlight ruby %}
+
 <?php
 
 /**
@@ -66,4 +67,5 @@ function authCode($string, $auth_key, $operation='ENCODE') {
         return str_replace('=', '',base64_encode(utf8_encode($result)));  
     }  
 }  
+
 {% endhighlight %}
