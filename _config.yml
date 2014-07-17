@@ -7,11 +7,11 @@ permalink: /:categories/:title.html
 timezone: Asia/Shanghai
 
 title: Ango's Pages
-url: http://angoz.github.io
+url: http://angos.github.io
 baseurl:
 feed: /rss.xml
 
-author_info: <a href="http://angoz.github.io/">Ango's Pages</a>
+author_info: <a href="http://angos.github.io/">Ango's Pages</a>
 description: Write the Code. Change the World.
 webjs: /assets/scripts
 webcss: /assets/styles
