@@ -34,6 +34,7 @@
 	<script src="{% if site.url %}{{ site.url }}{% endif %}/assets/themes/google-code-prettify/prettify.js"></script>
 	<script>
 	$(function() {
+		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
     		window.prettyPrint && prettyPrint();
 	});
 	</script>
