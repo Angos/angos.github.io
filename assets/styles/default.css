@@ -151,9 +151,10 @@ code {
 	background: #eee;
 	border: 1px solid #ccc;
 	padding: 0 5px;
-	font-family: "Courier";
+	font: 12px/1 'Consolas','DejaVu Sans Mono','Bitstream Vera Sans Mono',monospace;
+	/*font-family: "Courier";
 	line-height: 1;
-	font-size: 12px;
+	font-size: 12px;*/
 	word-wrap: break-word;
 }
 
@@ -168,6 +169,7 @@ pre {
 	-moz-border-radius: 4px 4px 4px 4px;
 	border-radius: 4px 4px 4px 4px;
 	color: #b9bdb6;
+	letter-spacing: 0.015em;
 	/*margin-top: -20px;*/
 }
 
