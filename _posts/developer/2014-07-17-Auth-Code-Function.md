@@ -16,7 +16,7 @@ end
 {% endhighlight %}
 
 
-```php
+{% highlight php linenos %}
 
 <?php
 
@@ -50,8 +50,7 @@ class Foo
 $f = new Foo;
 $f->get();
 ?>
-
-```
+{% endhighlight %}
 
 
 ```php3
