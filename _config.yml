@@ -6,7 +6,7 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 pygments: true
 paginate: 8
-permalink: /:categories/:title.html
+permalink: /:year/:i_month/:i_day/:title.html
 timezone: Asia/Shanghai
 
 title: Ango's Pages

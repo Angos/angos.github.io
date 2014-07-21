@@ -4,6 +4,7 @@ layout: default
 
 <div class="nav_path">
 	<!--<a href="#" rel="1">Index</a><a href="#" rel="2">Developer</a><a href="#" rel="3">PHP</a>-->
+	<a href="#" rel="1">Index</a><a href="#" rel="2">{{ page.categories | first }}</a><a href="#" rel="3">{{ page.tags | first }}</a>-->
 </div>
 <section>
 	<header>
@@ -17,6 +18,7 @@ layout: default
 		<div class="article_ext">
 			<span>Permalink: <a href="{% if site.baseurl %}{{ site.baseurl }} {% else %}{{ site.url }}{% endif %}{{ page.url }}" class="external" title="{{ page.title }}" rel="share">{% if site.baseurl %}{{ site.baseurl }} {% else %}{{ site.url }}{% endif %}{{ page.url }}</a></span><br>
 			{% if page.categories %}<span>Category: {{ page.categories | array_to_sentence_string }}</span><br>{% endif %}
+			{% if page.tags %}<span>Tags: {{ page.tags | array_to_sentence_string }}</span><br>{% endif %}
 		</div>
 	</footer>
 </section>
